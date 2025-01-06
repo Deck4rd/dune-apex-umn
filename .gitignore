@@ -3,6 +3,8 @@ Analysis/02_purity/inc/utils/__pycache__/utils.cpython-39.pyc
 .DS_Store
 .gitignore.txt~
 .idea/
+*pycache*
+get-started-2025/Plots/*
 Analysis/.DS_Store
 Analysis/01_cosmics/.DS_Store
 Analysis/01_cosmics/Plots/
