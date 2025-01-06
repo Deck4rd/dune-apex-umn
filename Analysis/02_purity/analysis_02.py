@@ -20,14 +20,12 @@ from inc.store_info import txt_file_initialize
 from inc.draw_summary_plots import draw_summary_plots
 
 DEFAULTS = {
-    # 'raw_data_folder_name': '20220511',
     # 'raw_data_folder_name': '20230623',
-    'raw_data_folder_name': '20220511_dev01',
-    # 'raw_data_folder_name': '20230722',
-    'input_evtdisplay_bool': False,
-    'input_chndisplay_bool': False,
-    'input_equalize_bool': True,
-    'input_filter_bool': True
+    'raw_data_folder_name': '20230623_test',
+    'input_evtdisplay_bool': True,
+    'input_chndisplay_bool': True,
+    'input_equalize_bool': False,
+    'input_filter_bool': False
 }
 
 

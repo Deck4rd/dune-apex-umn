@@ -69,10 +69,9 @@ def analyze_single_strips(year, cnt, terminal_bool, plot_dir, txt_filename, raw_
 
                 current_charge = r[chn][0][3][i_event]
 
-                charge_cluster = find_charge_cluster(adc, chn, current_charge, r, s, i_event)
+                # charge_cluster = find_charge_cluster(adc, chn, current_charge, r, s, i_event)
 
-                store_evts(txt_filename, cnt, binary_file_id, binary_event_id, converted_file_id, converted_event_id, chn,
-                           r[chn][0][0][i_event], r[chn][0][1][i_event], r[chn][0][2][i_event], r[chn][0][3][i_event], charge_cluster)
+                # store_evts(txt_filename, cnt, binary_file_id, binary_event_id, converted_file_id, converted_event_id, chn, r[chn][0][0][i_event], r[chn][0][1][i_event], r[chn][0][2][i_event], r[chn][0][3][i_event], charge_cluster)
 
     # Show traces on single strips #####################################################################################
 
